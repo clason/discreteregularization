@@ -5,7 +5,7 @@ function discreteregularization
 % using the approach described in the paper
 %    "Convex regularization of discrete-valued inverse problems"
 % by Christian Clason and Thi Bich Tram Do, see
-% http://arxiv.org/abs/1707.XXXX.
+% http://arxiv.org/abs/1707.01041.
 %
 % July 4, 2017               Christian Clason <christian.clason@uni-due.de>
 %                                     Thi Bich Tram Do <tram.do@uni-due.de>
@@ -39,7 +39,7 @@ tplot(3,yd,'noisy data');
 % precompute some terms
 Mz = M*yd(:);    AT = A;    N2 = N*N;    
 
-%% compute control
+%% compute reconstruction
 % initialize iterates
 y  = zeros(N2,1);                      % state variable
 p  = zeros(N2,1);                      % dual variable
@@ -121,7 +121,7 @@ while gamma > 1e-12
     dplot(99,u,'iterate')
 end 
 
-%% plot control
+%% plot reconstruction
 dplot(4,u,'reconstruction')
 
 end % main function
