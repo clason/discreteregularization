@@ -1,7 +1,7 @@
  discreteregularization
 ===============
 
-This repository contains Matlab codes accompanying the paper [Conve regularization of discrete-valued inverse problems](https://dx.doi.org/10.1007/978-3-319-70824-9_2) by [Christian Clason](http://udue.de/clason) and Thi Bich Tram Do.
+This repository contains Matlab codes accompanying the paper [Convex regularization of discrete-valued inverse problems](https://arxiv.org/abs/1707.01041) by [Christian Clason](http://udue.de/clason) and Thi Bich Tram Do.
 
 If you find this approach useful, you can cite the paper as
 
